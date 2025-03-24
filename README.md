@@ -177,3 +177,17 @@ pytest -v
 - **Testability**: Dependency injection and unit test coverage using `TestClient`
 
 ---
+# Timebox:
+
+1. Understanding of Problem statement - 10 min
+2. Pseudo Code with Happy Path Scenario - 20 min
+3. Architecture and Design Pattern - 10 min
+4. Refactoring - 20 min
+5. Code Changes and Exception Handling - 40 min
+6. Manual Testing and bug fixing - 40 min
+7. Validation - 20 min
+8. Unit Testing - 20 min
+9. Adding Missing Document Level Comments - 20 min
+10. Review and Documentation - 45 min
+
+Total : 245 min --> 4hr 5min

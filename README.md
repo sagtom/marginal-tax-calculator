@@ -41,7 +41,7 @@ This diagram illustrates the high-level request flow and components involved in 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-org/income-tax-api.git
+git clone https://github.com/sagtom/marginal-tax-calculator.git
 cd marginal-tax-calculator
 ```
 ### Optional - Docker Support

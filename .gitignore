@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Environment
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# Logs
+*.log
+
+# IDEs and editors
+.vscode/
+.idea/
+.DS_Store
+
+# Testing
+htmlcov/
+.tox/
+.coverage
+.pytest_cache/
+
+# Docker
+*.pid
+*.db
+docker-compose.override.yml
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python wheels
+*.whl
+
+# Jupyter Notebooks
+.ipynb_checkpoints

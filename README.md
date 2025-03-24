@@ -84,6 +84,14 @@ API_MAX_RETRIES=3
 
 ### 4. Run the Development Server
 
+NOte: Make sure you have test server running
+```bash
+docker pull ptsdocker16/interview-test-server
+docker run --init -p 5001:5001 -it ptsdocker16/interview-test-server
+```
+
+Run tax calculator server
+
 ```bash
 uvicorn app.main:app --reload --port 8000
 ```

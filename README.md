@@ -44,15 +44,6 @@ This diagram illustrates the high-level request flow and components involved in 
 git clone https://github.com/sagtom/marginal-tax-calculator.git
 cd marginal-tax-calculator
 ```
-### Optional - Docker Support
-
-```bash
-# Build the Docker image
-docker build -t marginal-tax-calculator-api .
-
-# Run it
-docker run -p 8000:8000 --env-file .env marginal-tax-calculator-api
-```
 
 ---
 ### 2. Install Dependencies
@@ -163,6 +154,16 @@ With detailed output:
 pytest -v
 ```
 
+---
+### Optional - Docker Support
+
+```bash
+# Build the Docker image
+docker build -t marginal-tax-calculator-api .
+
+# Run it
+docker run -p 8000:8000 --env-file .env marginal-tax-calculator-api
+```
 ---
 
 ## Technology Stack

@@ -75,7 +75,7 @@ Create a `.env` file using `.env_example` file and passing the required values. 
 
 ```
 TAX_API_BASE=http://localhost:5001/tax-calculator/tax-year
-*(For Docker Use this)TAX_API_BASE=http://host.docker.internal:5001/tax-calculator/tax-year
+*(For Docker Use this)TAX_API_BASE=http://interview-test-server:5001/tax-calculator/tax-year
 APP_PORT=8000
 LOG_LEVEL=DEBUG
 API_RETRY_ENABLED=true
